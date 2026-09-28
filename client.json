@@ -1,0 +1,9 @@
+{
+  "client_id": "https://rafaelcarvalho-ctrl.github.io/elevenlabs-tts/client.json",
+  "client_name": "ElevenLabs TTS (desktop)",
+  "redirect_uris": ["http://localhost:53682/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "text_to_speech voice_generation"
+}
